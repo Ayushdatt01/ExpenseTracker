@@ -1,0 +1,120 @@
+﻿body
+{
+	height:100px;
+	width: 950px;
+	margin: 0px auto;
+}
+
+h3{
+	display: inline-block
+}
+.center
+{
+	text-align: center;
+	    
+    }
+
+
+
+.h1Size
+{
+	font-size: 45px;
+	 font-weight: normal;
+	
+}
+
+.h2Color
+{
+	
+	color:green;
+
+}
+
+button{
+	height:50px;
+	width:150px;
+	margin-bottom:40px;
+	margin-top:25px;
+	background: green;
+	color: white;
+	font-size:15px;
+	border:0px !important;
+    
+}
+
+/*button:focus {
+  outline:none;
+  box-shadow: none;
+}*/
+
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+ .oneline
+
+{
+width:250px;
+height:50px;
+font-weight: bold;
+vertical-align:middle;
+padding-left:10px;
+}
+ 
+  
+.date
+{
+	height:50px;
+	width: 250px;
+}
+
+.amount
+{
+	width:310px;
+	height:50px;
+}
+
+.vacant
+{
+border: solid 1px #ccc;
+	width:132px;
+	height:50px;
+	float:right;
+
+}
+
+button.select
+{
+	border: 0px green none;
+}
+
+.last
+{
+
+   width:947px;
+   background:#D3D3D3;
+   height:50px;
+   vertical-align:middle;
+   padding-left:10px;
+ }
+ 
+ p
+ 
+ {
+	padding-left:10px;
+}
+
+table{
+	
+  border-color: gray;
+border-top: 1px solid ;
+}
+
+html {
+    overflow-y: scroll;
+
+}
+

@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled 1</title>
+<link rel="stylesheet" href ="Trackers.css" type="text/css"/>
+
+</head>
+
+<body>
+<h1 class="center h1Size">Expense Tracker</h1>
+<h2 class="center h2Color">Add A New Item</h2>
+
+<h3>Name: </h3> <input id="name"  style="height:20px; 	width:800px;" type="text" placeholder="Where was the expense made"></input><br>
+
+<h3>Date: </h3> <input id="date" style="height:20px; width:365px;" type="date" ></input>
+<h3>Amount: </h3> <input id="amount" style="height:20px; width:360px;" type="text" placeholder=""></input>
+
+<div class="center"><button id="enter"><b>Add Expense</b></button></div>
+<!--<div class="container">
+<div class="oneline name"><p>Name</p></div>
+<div class="oneline date"><p>Date</p></div>
+<div class="oneline amount"><p>Amount</p></div>
+<div class="vacant"></div>
+
+<div class="last"><p>No expense added yet</p></div>
+
+</div>-->
+
+
+
+<table id="myTable" style="width: 100%" border = "1px solid #D3D3D3" cellpadding="0" cellspacing="0">
+	<tr>
+		<td class="oneline">Name</td>
+		<td class="oneline">Date</td>
+		<td class="oneline">Amount</td>
+		<td class="oneline">Expense Delete</td>
+	</tr>
+	<tr id="FirstData">
+		<td class="last" id="checking">No expenses added yet</td>
+		<td class="last newDate"></td>
+        <td class="last newAmount"></td>
+		<td class="last">
+		<!--<img class="image" width="50px" src="cancel-cross-icon-flat-design-square-internet-gray-button-white-background-cancel-cross-icon-flat-design-square-internet-gray-110805587.jpg"/>-->
+		</td>
+
+	</tr>
+</table>
+
+
+<script type="text/javascript" src="functionality.js">
+</script>
+
+</body>
+
+</html>
